@@ -5,7 +5,7 @@ async function getAIResponse(question) {
         throw new Error("AI input must be a non-empty string");
     }
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey ="AIzaSyDY4SHR02MnX9s5-YimLXs3OtUMVc3VXpo" ;
     if (!apiKey) {
         throw new Error("AI API key not configured");
     }
